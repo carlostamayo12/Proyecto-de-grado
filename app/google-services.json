@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "857907773088",
+    "firebase_url": "https://fir-prueba-5bf3d.firebaseio.com",
+    "project_id": "fir-prueba-5bf3d",
+    "storage_bucket": "fir-prueba-5bf3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857907773088:android:03d6fa1f79637a1544d3c5",
+        "android_client_info": {
+          "package_name": "com.example.jeromotosapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857907773088-2ller322ggc0phigtf23sf0brm98djge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBslCV2Rp6ZDItJQtyyUlAJvKLq9tOPdE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857907773088-2ller322ggc0phigtf23sf0brm98djge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

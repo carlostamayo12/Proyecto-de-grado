@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Jeromotos24 App</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="URL">http://192.168.1.55/Conexion/</string>
+    <string name="mision">Mantener al mayor número de pasajeros en dos ruedas con seguridad, cubriendo las necesidades del mercado, obteniendo plena satisfacción de sus clientes, mediante la integración de un equipo de trabajo capacitado; proporcionando servicios de calidad y mejora continua de sus servicios.</string>
+    <string name="vision">Ser el mejor taller  y almacen de motos con un servicio y atención de categoría en la región, líderes en la innovación y prestación del mantenimiento del parque motociclista, lográndolo a través de un trabajo en equipo, con una planificación y organización adecuada, que responda a cualquier reto del consumidor y de la competencia</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="title_activity_tabs">TabsActivity</string>
+    <string name="tab_text_1">Motocicleta</string>
+    <string name="tab_text_2">Tabla Mantenimiento</string>
+    <string name="tab_text_3">Orden Servicio</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="info_tabla">La fecha del proximo servicio esta basada en el km/dia promedio calculado por nuestro sistema</string>
+    <string name="title_activity_tab">TabActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

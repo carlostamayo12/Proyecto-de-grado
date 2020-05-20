@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/login">
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edit_rounded"
+        android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextPwd"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="15dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_rounded"
+        android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnSingUp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editTextPwd"
+        android:layout_marginTop="150dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:background="@drawable/button_login"
+        android:drawableRight="@drawable/ic_send_black_24dp"
+        android:paddingLeft="80dp"
+        android:paddingRight="60dp"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>

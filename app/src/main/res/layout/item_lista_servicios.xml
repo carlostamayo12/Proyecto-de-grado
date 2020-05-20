@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <!--<TextView
+            android:id="@+id/servicioTaller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Servicio Taller"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/solicitado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/realizado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:textColor="#000" />-->
+
+
+        <TextView
+            android:id="@+id/servicioTaller"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="12dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/solicitado"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:text="Solicitado" />
+
+        <TextView
+            android:id="@+id/realizado"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:text="Realizado" />
+    </LinearLayout>
+
+</LinearLayout>
