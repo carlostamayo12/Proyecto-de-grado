@@ -114,11 +114,26 @@ public class TablaFragment extends Fragment {
           ArrayList<TablaView> listTablaView = new ArrayList<>();
           //Array Tabla
           JSONArray arrayTabla = jsonObject.getJSONArray("tabla");
-
+          String t = "" +
+                  "";
           ArrayList<Tabla> listatabla = new ArrayList<>();
           for (int i = 0; i < arrayTabla.length(); i++){
             JSONObject object = arrayTabla.getJSONObject(i);
-            Tabla tabla = new Tabla(object);
+            //Tabla tabla = new Tabla(object);
+
+
+            //Borrar
+            Tabla tabla = new Tabla(
+                    object.getInt("id"),
+                    object.getInt("contadorKm"),
+                    object.getInt("contadorTime"),
+                    object.getInt("servicioId"),
+                    object.getInt("kilometraje"),
+                    object.getInt("tiempo"),
+                    object.getString("servicioNombre")
+                    );
+
+
             int position = TablaView.ultimaOrdenIndex(listaOrden, tabla.getServicioId(), tabla);
             listTablaView.add(TablaView.view(listaOrden, tabla, position));
           }

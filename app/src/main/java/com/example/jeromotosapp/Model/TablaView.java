@@ -1,5 +1,7 @@
 package com.example.jeromotosapp.Model;
 
+import android.util.Log;
+
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -65,7 +67,10 @@ public class TablaView {
 
   public static TablaView view(ArrayList<Orden> listaOrden ,Tabla tabla, int position ){
 
+    Log.w("servicioNombe", String.valueOf(tabla));
+
     String servicioNombre = tabla.servicioNombre;
+    //String servicioNombre = "tablaview";
     String frecuencia = TablaView.frecuenciaServicio(tabla);
     String ultimo = "ultimo";
     String proximo = "proximo";

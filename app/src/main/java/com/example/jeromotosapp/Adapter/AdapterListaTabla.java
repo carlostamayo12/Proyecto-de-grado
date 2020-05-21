@@ -50,8 +50,8 @@ public class AdapterListaTabla extends BaseAdapter {
     TextView ultimoServicio = (TextView) convertView.findViewById(R.id.ultimoServicio);
     TextView proximoServicio = (TextView) convertView.findViewById(R.id.proximoServicio);
 
-    //servicio.setText(arrayList.get(position).getServicioNombre());
-    servicio.setText("Servic");
+    servicio.setText(arrayList.get(position).getServicioNombre());
+    //servicio.setText("Servic");
     frecuencia.setText(arrayList.get(position).getFrecuencia());
     ultimoServicio.setText(arrayList.get(position).getUltimo());
     proximoServicio.setText(arrayList.get(position).getProximo());
